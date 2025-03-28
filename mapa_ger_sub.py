@@ -6,8 +6,8 @@ from streamlit_folium import folium_static
 
 @st.cache_data
 def load_data():
-    geracao = pd.read_csv("data\geracao_sem_micro_PB.csv")  
-    subestacoes = pd.read_csv("data\dados_extraidos.csv")  
+    geracao = pd.read_csv("geracao_sem_micro_PB.csv")  
+    subestacoes = pd.read_csv("dados_extraidos.csv")  
     return geracao, subestacoes
 
 # Carregar os dados
