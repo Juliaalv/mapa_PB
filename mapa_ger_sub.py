@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import folium
-from shapely.wkt import loads  # Para lidar com WKT (Well-Known Text)
+from shapely.wkt import loads 
 from streamlit_folium import folium_static
 
 @st.cache_data
@@ -10,10 +10,8 @@ def load_data():
     subestacoes = pd.read_csv("dados_extraidos.csv")  
     return geracao, subestacoes
 
-# Carregar os dados
-ger_sem_micro, dados_extraidos = load_data()
 
-# Converter Latitude e Longitude para float nos dados de geração
+ger_sem_micro, dados_extraidos = load_data()
 ger_sem_micro["Latitude"] = ger_sem_micro["Latitude"].astype(str).str.replace(",", ".").astype(float)
 ger_sem_micro["Longitude"] = ger_sem_micro["Longitude"].astype(str).str.replace(",", ".").astype(float)
 ger_sem_micro.dropna(subset=["Latitude", "Longitude"], inplace=True)
@@ -24,13 +22,11 @@ def extract_centroid(geometry):
     centroid = shape.centroid
     return centroid.x, centroid.y
 
-# Aplicar a função e criar colunas de latitude e longitude para subestações
 dados_extraidos["Longitude"], dados_extraidos["Latitude"] = zip(*dados_extraidos["geometry"].apply(extract_centroid))
 
-# Criar o mapa centrado na Paraíba
+
 m = folium.Map(location=[-7.121, -36.722], zoom_start=8, tiles="cartodbpositron")
 
-# Cores para os diferentes tipos de geração
 cores_geracao = {
     "EOL": "blue",
     "UFV": "orange",
@@ -51,7 +47,7 @@ for _, row in ger_sem_micro.iterrows():
         popup=f"{row['Empreendimento']}<br>Potência: {row['Potência Outorgada (kW)']} kW<br>Município: {row['DscMuninicpios']}",
     ).add_to(m)
 
-# Adicionar as subestações com os centróides
+# Adicionar as subestações
 for _, row in dados_extraidos.iterrows():
     folium.CircleMarker(
         location=[row["Latitude"], row["Longitude"]],
@@ -63,10 +59,8 @@ for _, row in dados_extraidos.iterrows():
         popup=f"Subestação: {row['NOME']}",
     ).add_to(m)
 
-# Criar o app no Streamlit
+
 st.title("Mapa de Geração e Subestações na Paraíba")
-
-
 
 legend_html = """
 <div style="position: fixed; 
@@ -83,10 +77,8 @@ legend_html = """
 </div>
 """
 
-# Exibir a legenda no Streamlit
-st.markdown(legend_html, unsafe_allow_html=True)
 
-# Exibir o mapa no Streamlit
+st.markdown(legend_html, unsafe_allow_html=True)
 folium_static(m, width=1200, height=750)
 
 
