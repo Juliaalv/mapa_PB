@@ -1,0 +1,89 @@
+Empreendimento,Tipo de Geração,Potência Outorgada (kW),Latitude,Longitude,DscMuninicpios
+Campina Grande,UTE,169080.0,"-7,23073189","-35,88997900",Campina Grande - PB
+Curemas,PCH,3520.0,"-7,02335186","-37,94816502",Coremas - PB
+Japungu,UTE,28800.0,"-6,98690966","-35,01433455",Santa Rita - PB
+Giasa II,UTE,30000.0,"-7,35327785","-35,02966974",Pedras de Fogo - PB
+Millennium,EOL,10200.0,"-6,49388892","-34,97194437",Mataraca - PB
+Vitória,EOL,4500.0,"-6,55729634","-35,01469355",Mataraca - PB
+Presidente,EOL,4800.0,"-6,57467434","-34,97603911",Mataraca - PB
+Camurim,EOL,4800.0,"-6,55759639","-34,97205771",Mataraca - PB
+Albatroz,EOL,4800.0,"-6,54751670","-34,96801217",Mataraca - PB
+Coelhos I,EOL,4800.0,"-6,57579657","-34,97181492",Mataraca - PB
+Coelhos III,EOL,4800.0,"-6,55658984","-34,96642989",Mataraca - PB
+Atlântica,EOL,4800.0,"-6,54736604","-34,97371060",Mataraca - PB
+Caravela,EOL,4800.0,"-6,55597563","-34,96904259",Mataraca - PB
+Coelhos II,EOL,4800.0,"-6,57010979","-34,96736854",Mataraca - PB
+Coelhos IV,EOL,4800.0,"-6,58140798","-34,97465157",Mataraca - PB
+Mataraca,EOL,4800.0,"-6,58225475","-34,97846188",Mataraca - PB
+Aeroporto Internacional Presidente Castro Pinto,UTE,616.0,"-7,14718849","-34,95042855",Bayeux - PB
+Termoparaíba,UTE,170852.0,"-7,20957357","-34,92295892",João Pessoa - PB
+Termonordeste,UTE,170852.0,"-7,16140967","-34,86031455",João Pessoa - PB
+AMBEV - João Pessoa,UTE,1350.0,"-7,18791232","-34,91464510",João Pessoa - PB
+Tabu,UTE,12200.0,"-7,50838722","-34,87588028",Caaporã - PB
+Coremas I,UFV,27000.0,"-6,95673176","-37,99779730",Coremas - PB
+Coremas III,UFV,27000.0,"-6,94721750","-37,99384389",Coremas - PB
+Ophbras Produtos Oftalmicos,UTE,800.0,"-7,16872222","-34,89900000",João Pessoa - PB
+Coremas IV,UFV,27000.0,"-6,95712028","-37,98965195",Coremas - PB
+Coremas VI,UFV,27000.0,"-6,94947362","-37,98305888",Pombal - PB
+Coremas VII,UFV,27000.0,"-6,94808250","-37,99598667",Coremas - PB
+Coremas V,UFV,27000.0,"-6,95228722","-37,99598027",Coremas - PB
+Coremas II,UFV,27000.0,"-6,96295389","-38,00186638",Coremas - PB
+Canoas,EOL,31500.0,"-6,88335057","-36,76373695",São José do Sabugi - PB
+Lagoa 1,EOL,31500.0,"-6,87904067","-36,81843069",Santa Luzia - PB
+Lagoa 2,EOL,31500.0,"-6,84091341","-36,79106777",São José do Sabugi - PB
+Angico I,UFV,27200.0,"-6,91704135","-37,56017362",Condado - PB
+Malta,UFV,27200.0,"-6,90975366","-37,56014221",Malta - PB
+Chafariz 1,EOL,34650.0,"-6,97288508","-36,87927525",Santa Luzia - PB
+Chafariz 2,EOL,34650.0,"-6,99685254","-36,89395118",Santa Luzia - PB
+Chafariz 3,EOL,34650.0,"-7,00159723","-36,89827901",Santa Luzia - PB
+Chafariz 4,EOL,34650.0,"-7,03372829","-36,93548741","Areia de Baraúnas - PB, Santa Luzia - PB"
+Chafariz 5,EOL,34650.0,"-7,00391417","-36,91308919",Santa Luzia - PB
+Monte Alegre,UTE,19200.0,"-6,68319366","-35,14897261",Mamanguape - PB
+Miriri,UTE,11300.0,"-6,95722250","-35,13555396",Santa Rita - PB
+Canoas 2,EOL,34650.0,"-6,88251001","-36,79135867",Santa Luzia - PB
+Chafariz 6,EOL,31185.0,"-6,97860766","-36,85393240",Santa Luzia - PB
+Serra do Seridó II,EOL,16500.0,"-6,97425004","-36,76179523",Junco do Seridó - PB
+Serra do Seridó III,EOL,44000.0,"-6,96893795","-36,79316669",Junco do Seridó - PB
+Serra do Seridó IV,EOL,44000.0,"-6,96132887","-36,78588369",Junco do Seridó - PB
+Ventos de Arapuá 1,EOL,24255.0,"-7,04823355","-36,95241118","Areia de Baraúnas - PB, Santa Luzia - PB"
+Ventos de Arapuá 2,EOL,34650.0,"-7,02919322","-36,96244829","Areia de Baraúnas - PB, Santa Luzia - PB, São Mamede - PB"
+Ventos de Arapuá 3,EOL,13860.0,"-7,05079629","-36,96789210","Areia de Baraúnas - PB, São Mamede - PB"
+SEDE JOÃO PESSOA,UTE,240.0,"-7,16427778","-34,86027778",João Pessoa - PB
+Alpargatas F26,UTE,3000.0,"-7,14003794","-34,99055165",Santa Rita - PB
+Coremas VIII,UFV,27000.0,"-6,94981222","-38,00240611",Coremas - PB
+Canoas 3,EOL,34650.0,"-6,87214936","-36,75935513","Santa Luzia - PB, São José do Sabugi - PB"
+Canoas 4,EOL,34650.0,"-6,84358227","-36,73554929",São José do Sabugi - PB
+Chafariz 7,EOL,34650.0,"-6,92399290","-36,86074776",Santa Luzia - PB
+Lagoa 3,EOL,34650.0,"-6,87119192","-36,82620039",São José do Sabugi - PB
+Lagoa 4,EOL,20790.0,"-6,88236186","-36,84149027",Santa Luzia - PB
+Serra do Seridó VI,EOL,44000.0,"-6,97312562","-36,80143390",Junco do Seridó - PB
+Serra do Seridó VII,EOL,44000.0,"-7,00880865","-36,78330252",Junco do Seridó - PB
+Serra do Seridó IX,EOL,49500.0,"-7,00187406","-36,80013241",Junco do Seridó - PB
+Serra do Seridó X,EOL,34800.0,"-7,04515918","-36,75352169",Junco do Seridó - PB
+Asja João Pessoa,UTE,5704.0,"-7,21758333","-34,95646944",João Pessoa - PB
+Rio do Peixe I,UFV,34400.0,"-6,79295852","-38,48397479",São João do Rio do Peixe - PB
+Rio do Peixe II,UFV,34400.0,"-6,80147499","-38,47673611",São João do Rio do Peixe - PB
+Serra do Seridó XI,EOL,46400.0,"-6,97498691","-36,83449160",Santa Luzia - PB
+Serra do Seridó XII,EOL,40600.0,"-7,03776470","-36,80484064",Santa Luzia - PB
+Serra do Seridó XIV,EOL,34800.0,"-6,93327505","-36,78877399",Junco do Seridó - PB
+Luzia 2,UFV,58932.0,"-6,83192500","-36,92888056",Santa Luzia - PB
+Luzia 3,UFV,58932.0,"-6,84570555","-36,92991389",Santa Luzia - PB
+Ferreira Costa João Pessoa,UFV,2340.0,"-7,08733333","-34,84675000",João Pessoa - PB
+Santa Luzia 1,UFV,50000.0,"-6,89156944","-36,96417250",Santa Luzia - PB
+Santa Luzia 4,UFV,50000.0,"-6,90882700","-36,95948139",Santa Luzia - PB
+Santa Luzia V,UFV,50000.0,"-6,90118394","-36,96518108",Santa Luzia - PB
+Santa Luzia VII,UFV,50000.0,"-6,90529463","-36,97303390",Santa Luzia - PB
+Santa Luzia IX,UFV,50000.0,"-6,91806000","-36,97100000",Santa Luzia - PB
+Polpa Ideal Ii,UFV,226.4,"-7,16741000","-34,82441000",João Pessoa - PB
+Serra do Seridó XVI,EOL,46400.0,"-7,03944590","-36,79136928",Junco do Seridó - PB
+Serra do Seridó XVII,EOL,34800.0,"-7,02601477","-36,75363186",Junco do Seridó - PB
+Polpa Ideal I,UFV,217.2,"-7,16381000","-34,82389000",João Pessoa - PB
+Nordestao Pb,UFV,900.0,"-7,16638889","-34,86111111",João Pessoa - PB
+X3 Reciclagens,UFV,300.0,"-6,89972219","-38,52972219",Cajazeiras - PB
+Patex,UFV,300.0,"-6,89408531","-38,53079389",Cajazeiras - PB
+Edr Construções,UFV,1845.0,"-7,70333331","-36,86361111",Sumé - PB
+Supermercado Guedes,UFV,300.0,"-7,02821081","-37,28153611",Patos - PB
+LAMINOR_UFV,UFV,140.0,-6.3265408967843975,-37.70878547301616,Catolé do Rocha - PB
+ITATEX,UFV,108.0,-7.3283816143434874,-38.141135299999995,Itaporanga - PB
+HUMAITA I,UFV,200.0,-7.212568818951673,-34.85277052883603,João Pessoa - PB
+LAMINOR MATRIZ AUTOPRODUTOR,UFV,200.0,-6.3265408967843975,-37.70874255767205,Catolé do Rocha - PB
