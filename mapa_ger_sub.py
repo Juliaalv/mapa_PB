@@ -68,7 +68,12 @@ if any(tipo in selecionados for tipo in cores_geracao.keys()):
         nome = row["Empreendimento"]
         if tipo in selecionados:
             if nome in usinas_em_corte:
-                cor = "red"
+                if tipo == "EOL":
+                    cor = "green"
+                elif tipo == "UFV":
+                    cor = "yellow"
+                else:
+                    cor = "red"
                 popup_text = f"<b>Usina em corte:</b> {nome}<br>Potência: {row['Potência Outorgada (kW)']} kW<br>Município: {row['DscMuninicpios']}"
             else:
                 cor = cores_geracao[tipo]
@@ -97,18 +102,19 @@ if "Subestação" in selecionados:
             popup=f"Subestação: {row['NOME']}",
         ).add_to(m)
 
-# Legenda
+# Legenda atualizada
 legend_html = """
 <div style="position: fixed; 
-            bottom: 30px; right: 30px; width: 280px; height: 130px; 
+            bottom: 30px; right: 30px; width: 300px; height: 160px; 
             background-color: white; z-index:9999; padding: 10px;
             border-radius: 10px; box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
             font-size:14px;">
     <strong>Legenda:</strong><br>
     <span style="color:blue;">⬤</span> Eólica (EOL) <br>
     <span style="color:orange;">⬤</span> Solar (UFV) <br>
-    <span style="color:black;">⬤</span> Subestação <br>
-    <span style="color:red;">⬤</span> Usina em corte
+    <span style="color:green;">⬤</span> Eólica em corte <br>
+    <span style="color:yellow;">⬤</span> Solar em corte <br>
+    <span style="color:black;">⬤</span> Subestação
 </div>
 """
 
